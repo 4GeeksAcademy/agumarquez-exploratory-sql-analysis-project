@@ -1,19 +1,4 @@
--- PLEASE READ THIS BEFORE RUNNING THE EXERCISE
 
--- ⚠️ IMPORTANT: This SQL file may crash due to two common issues: comments and missing semicolons.
-
--- ✅ Suggestions:
--- 1) Always end each SQL query with a semicolon `;`
--- 2) Ensure comments are well-formed:
---    - Use `--` for single-line comments only
---    - Avoid inline comments after queries
---    - Do not use `/* */` multi-line comments, as they may break execution
-
--- -----------------------------------------------
--- queries.sql
--- Complete each mission by writing your SQL query
--- directly below the corresponding instruction
--- -----------------------------------------------
 
 SELECT * FROM regions;
 SELECT * FROM species;
@@ -22,10 +7,13 @@ SELECT * FROM observations;
 
 
 -- MISSION 1
--- Your query here;
+-- ¿Cuáles son las primeras 10 observaciones registradas?;
+SELECT * FROM observations
+LIMIT 5;
 
 -- MISSION 2
--- Your query here;
+-- ¿Qué identificadores de región (region_id) aparecen en los datos?;
+
 
 
 -- MISSION 3
