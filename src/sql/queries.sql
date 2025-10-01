@@ -41,8 +41,23 @@ ORDER BY observation_count
 DESC LIMIT 1;
 
 -- MISSION 7
--- Your query here;
-
+-- ¿Cuáles son los 5 species_id más frecuentes?;
 
 -- MISSION 8
--- Your query here;
+-- ¿Qué especies (species_id) tienen menos de 5 registros?;
+
+-- MISSION 9
+-- ¿Qué observadores (observer) registraron más observaciones?;
+
+-- MISSION 10
+-- Muestra el nombre de la región (regions.name) para cada observación.;
+
+-- MISSION 11
+-- Muestra el nombre científico de cada especie registrada (species.scientific_name);
+
+-- MISSION 12
+-- ¿Cuál es la especie más observada por cada región?;
+
+-- MISSION 13
+-- Inserta una nueva observación ficticia en la tabla observations.;
+
