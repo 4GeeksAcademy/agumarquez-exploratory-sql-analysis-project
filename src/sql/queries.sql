@@ -57,7 +57,8 @@ HAVING COUNT(species_id) < 5;
 -- ¿Qué observadores (observer) registraron más observaciones?;
 SELECT observer, COUNT(*) AS observations_count
 FROM observations
-GROUP BY observer;
+GROUP BY observer
+DESC LIMIT 20;
 
 -- MISSION 10
 -- Muestra el nombre de la región (regions.name) para cada observación.;
