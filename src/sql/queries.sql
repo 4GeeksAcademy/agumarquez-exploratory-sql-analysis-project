@@ -27,7 +27,7 @@ WHERE region_id = 2;
 -- MISSION 5
 -- ¿Cuántas observaciones se registraron el día 1998-08-08?;
 SELECT COUNT (*) FROM observations
-WHERE observation_date = 1998-08-08;
+WHERE observation_date = '1998-08-08';
 
 -- MISSION 6
 -- ¿Cuál es el region_id con más observaciones?;
